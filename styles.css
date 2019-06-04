@@ -1,0 +1,30 @@
+.our-skills {
+    background: linear-gradient(to top, rgba(13, 9, 6, 0.7) 70%, rgba(13, 9, 6, 0.7) 70%), 
+    url(camera.jpg) no-repeat center top / cover;
+    padding: 40px 15px;
+}
+
+.skills-content-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.our-skills-content h4 {
+    text-align: center;
+    color: white;
+}
+.skills-content-item {
+    width: 20%;
+}    
+
+.skills-content-item p {
+    text-align: center;
+    color: white;
+    margin: 10px 0 0 0;
+}
+
+.skills-content-item canvas {
+    display: block;
+    margin: 0 auto;
+}
